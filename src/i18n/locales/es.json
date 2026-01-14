@@ -1,0 +1,289 @@
+{
+    "common": {
+        "loading": "Cargando...",
+        "close": "Cerrar",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar",
+        "undo": "Deshacer",
+        "redo": "Rehacer",
+        "reset": "Reiniciar",
+        "menu": "Menú",
+        "settings": "Configuración",
+        "start": "Iniciar",
+        "next": "Siguiente",
+        "previous": "Anterior",
+        "skip": "Omitir",
+        "finish": "Finalizar",
+        "or": "o"
+    },
+    "welcome": {
+        "title": "Marcador de Topple",
+        "subtitle": "Rastrea puntajes y gestiona tu juego de mesa Topple",
+        "startButton": "Comenzar"
+    },
+    "game": {
+        "title": "Marcador de Topple",
+        "round": "Ronda {{number}}",
+        "gameOver": "¡Juego Terminado!",
+        "roundEnded": "Ronda Terminada",
+        "waitingForTurn": "Esperando tu turno",
+        "currentPlayer": "Jugador Actual",
+        "noBoardAvailable": "No hay tablero disponible"
+    },
+    "setup": {
+        "title": "Configuración del Juego",
+        "description": "Configura jugadores, colores y puntos de victoria para comenzar el juego",
+        "playerCount": "Número de Jugadores",
+        "victoryPoints": "Puntos de Victoria",
+        "victoryPointsDescription": "Ingresa el número de puntos necesarios para ganar el juego",
+        "players": "Jugadores",
+        "player": "Jugador {{number}}",
+        "playerDefault": "Jugador {{number}}",
+        "name": "Nombre",
+        "color": "Color",
+        "color2": "Segundo Color",
+        "selectColor": "Seleccionar color",
+        "selectSecondColor": "Seleccionar segundo color",
+        "noColorSelected": "No se seleccionó color",
+        "startGame": "Iniciar Juego",
+        "moveUp": "Mover jugador {{number}} hacia arriba",
+        "moveDown": "Mover jugador {{number}} hacia abajo",
+        "showTutorial": "Mostrar tutorial interactivo",
+        "errors": "Errores de configuración",
+        "twoPlayers": "2 Jugadores",
+        "threePlayers": "3 Jugadores",
+        "fourPlayers": "4 Jugadores",
+        "none": "Ninguno",
+        "pink": "Rosa",
+        "yellow": "Amarillo",
+        "orange": "Naranja",
+        "purple": "Morado"
+    },
+    "initialRoll": {
+        "title": "Determinar Jugador Inicial",
+        "description": "Todos los jugadores lanzan dados. El mayor lanzamiento va primero. En caso de empate, esos jugadores lanzan de nuevo.",
+        "waitingToRoll": "Esperando para lanzar...",
+        "rolled": "{{playerName}} lanzó {{roll}}",
+        "rolledLabel": "Lanzó {{roll}}",
+        "reorderList": "Orden de Jugadores",
+        "moveUp": "Mover jugador seleccionado hacia arriba",
+        "moveDown": "Mover jugador seleccionado hacia abajo",
+        "rollForAll": "Lanzar Dados para Todos los Jugadores",
+        "determineWinner": "Determinar Jugador Inicial",
+        "dragToReorder": "Arrastra jugadores para cambiar el orden antes de lanzar los dados"
+    },
+    "dice": {
+        "rollDice": "Lanzar Dado",
+        "cannotRoll": "No se puede lanzar dado - esperando tu turno",
+        "clickToRoll": "Haz clic para lanzar dado",
+        "clickToRollShortcut": "Haz clic para lanzar dado (o presiona Espacio/Enter)",
+        "rolled": "lanzó un {{roll}}",
+        "title": "Lanzamiento de Dado",
+        "playerTurn": "Turno de {{playerName}}",
+        "waitingForPlayer": "Esperando jugador",
+        "noActivePlayer": "No hay jugador activo",
+        "placeCenterOnly": "Colocar solo en el centro",
+        "placeOnLevel": "Colocar en el nivel {{level}}",
+        "placeAnywhere": "Colocar en cualquier lugar",
+        "turnActions": "Acciones del Turno",
+        "selectColor": "Seleccionar Color",
+        "piecesRemaining": "piezas"
+    },
+    "board": {
+        "title": "Tablero de juego",
+        "description": "Cuadrícula de tablero de juego 5x5. Usa las teclas de flecha para navegar celdas, Enter o Espacio para colocar pieza",
+        "cell": "Celda en fila {{row}}, columna {{col}}, nivel {{level}}, {{pieces}} piezas",
+        "validPlacement": ". Ubicación de colocación válida. Presiona Enter o Espacio para colocar pieza."
+    },
+    "scoring": {
+        "title": "Puntuaciones de jugadores",
+        "scores": "Puntuaciones",
+        "currentScores": "Puntuaciones Actuales",
+        "points": "{{points}} puntos",
+        "pointsLabel": "puntos",
+        "piecesRemaining": "{{pieces}} piezas restantes",
+        "currentPlayer": ", jugador actual",
+        "current": "Actual",
+        "winner": ", ganador",
+        "winnerBadge": "¡Ganador!",
+        "gained": "Ganó {{points}} puntos",
+        "lost": "Perdió {{points}} puntos",
+        "victoryPoints": "Puntos de Victoria: {{points}}"
+    },
+    "topple": {
+        "title": "Ocurrió un Derrumbe",
+        "description": "Haz clic si ocurrió un derrumbe durante la colocación de piezas",
+        "button": "Ocurrió un Derrumbe",
+        "buttonWithPlayer": "¿Ocurrió un derrumbe? ({{playerName}})",
+        "ariaLabel": "Marcar derrumbe ocurrido. El último jugador que colocó una pieza perderá 10 puntos, y el jugador anterior ganará 3 puntos",
+        "message": "El último jugador que colocó una pieza perderá 10 puntos, y el jugador anterior ganará 3 puntos",
+        "cannotMarkToppled": "No se puede marcar derrumbe - no es tu turno",
+        "penaltyPlayer": "Penalización a",
+        "noPlayer": "Ningún jugador",
+        "selectPlayer": "Seleccionar jugador que causó el derrumbe",
+        "selectPlayerTitle": "Seleccionar jugador que causó el derrumbe",
+        "selectPlayerDescription": "Elija qué jugador causó el derrumbe. El jugador seleccionado recibirá una penalización de -10 puntos.",
+        "default": "Predeterminado"
+    },
+    "roundEnd": {
+        "title": "Resumen de Ronda",
+        "toppleOccurred": "¡Ocurrió un derrumbe! El tablero se limpiará para la siguiente ronda.",
+        "allPiecesPlayed": "Todas las piezas han sido jugadas. El tablero se limpiará para la siguiente ronda.",
+        "startNewRound": "Iniciar Nueva Ronda"
+    },
+    "gameEnd": {
+        "winner": "Ganador: {{name}}",
+        "finalScore": "Puntuación Final: {{score}} puntos",
+        "startNewGame": "Iniciar Nuevo Juego",
+        "gameEndedAfter": "Juego terminado después de la ronda {{round}}",
+        "gameStatistics": "Estadísticas del Juego",
+        "roundsPlayed": "Rondas Jugadas",
+        "totalPlacements": "Total de Colocaciones",
+        "totalEvents": "Total de Eventos"
+    },
+    "log": {
+        "title": "Registro del Juego",
+        "noEvents": "Aún no hay eventos. Los eventos del juego aparecerán aquí.",
+        "dice": "Dado",
+        "placement": "Colocación",
+        "score": "Puntuación",
+        "topple": "Derrumbe",
+        "roundStart": "Inicio de Ronda",
+        "roundEnd": "Fin de Ronda",
+        "event": "Evento {{type}}: {{message}}{{player}}{{points}}",
+        "round": "Ronda {{number}}",
+        "by": " por {{playerName}}",
+        "gainedPoints": ", ganó {{points}} puntos",
+        "lostPoints": ", perdió {{points}} puntos"
+    },
+    "analytics": {
+        "title": "Análisis del Juego",
+        "description": "Estadísticas e información de tu juego",
+        "diceFrequency": "Frecuencia de Lanzamiento de Dados",
+        "totalRolls": "Total: {{count}} lanzamientos",
+        "rolled": "Lanzó {{value}}: {{count}} veces ({{percentage}}%)",
+        "averageScore": "Puntuación Promedio por Ronda",
+        "average": "{{average}} promedio",
+        "total": "({{total}} total)",
+        "gameStats": "Estadísticas del Juego",
+        "currentRound": "Ronda Actual:",
+        "totalPlacements": "Total de Colocaciones:"
+    },
+    "menu": {
+        "title": "Menú del Juego",
+        "description": "Administra tu sesión de juego",
+        "currentGame": "Juego Actual",
+        "status": "Ronda: {{round}} | Estado: {{status}}",
+        "players": "Jugadores: {{count}} | Puntos de Victoria: {{points}}",
+        "keyboardShortcuts": "Atajos de Teclado",
+        "shortcutMenu": "Cmd/Ctrl+/ - Abrir menú",
+        "shortcutSound": "Alternar sonido",
+        "shortcutRoll": "Espacio o Enter - Lanzar dado",
+        "shortcutUndo": "U - Deshacer",
+        "shortcutReset": "R - Reiniciar juego",
+        "shortcutClose": "Esc - Cerrar diálogos",
+        "undoLastAction": "Deshacer Última Acción",
+        "cannotUndo": "No se puede deshacer - no hay acciones para deshacer",
+        "redoLastAction": "Rehacer Última Acción",
+        "cannotRedo": "No se puede rehacer - no hay acciones para rehacer",
+        "resetGame": "Reiniciar Juego",
+        "resetConfirm": "¿Estás seguro de que quieres reiniciar el juego? Esto borrará todo el progreso y volverá a la pantalla de configuración.",
+        "resetConfirmTitle": "Confirmar Reinicio",
+        "resetConfirmDescription": "¿Estás seguro de que quieres reiniciar el juego? Esta acción no se puede deshacer."
+    },
+    "tutorial": {
+        "close": "Cerrar tutorial",
+        "step": "Paso {{current}} de {{total}}",
+        "titlePrefix": "Tutorial: {{title}}",
+        "previous": "Anterior",
+        "next": "Siguiente",
+        "finish": "Finalizar",
+        "welcome": {
+            "title": "¡Bienvenido a Marcador de Topple!",
+            "content": "Este tutorial te guiará a través del juego. Puedes omitirlo en cualquier momento o volver más tarde."
+        },
+        "setup": {
+            "title": "Configuración del Juego",
+            "content": "Comienza configurando tu juego: selecciona el número de jugadores (2-4), establece puntos de victoria y personaliza nombres y colores de jugadores."
+        },
+        "rolling": {
+            "title": "Lanzar Dados",
+            "content": "Haz clic en el icono de dado o el botón \"Lanzar Dado\" (o presiona Espacio/Enter) para lanzar. El número determina dónde puedes colocar piezas."
+        },
+        "placing": {
+            "title": "Colocar Piezas",
+            "content": "Después de lanzar, las celdas válidas se resaltan en azul. Haz clic en una celda resaltada para colocar tu pieza allí."
+        },
+        "scoring": {
+            "title": "Puntuación",
+            "content": "Gana puntos completando filas, agregando a filas completadas o construyendo pilas altas (3+ piezas). Las puntuaciones se actualizan automáticamente."
+        },
+        "topples": {
+            "title": "Derrumbes",
+            "content": "Si las piezas caen, haz clic en \"Ocurrió un Derrumbe\". El último jugador que colocó una pieza pierde 10 puntos, y el jugador anterior gana 3 puntos de bonificación."
+        },
+        "controls": {
+            "title": "Controles del Juego",
+            "content": "Usa el botón Menú para deshacer, reiniciar y configuraciones. Atajos de teclado: Espacio/Enter (lanzar), U (deshacer), R (reiniciar), Esc (cerrar diálogos)."
+        },
+        "analytics": {
+            "title": "Análisis",
+            "content": "Consulta el Panel de Análisis para ver frecuencias de lanzamiento de dados, puntuaciones promedio y estadísticas del juego."
+        }
+    },
+    "theme": {
+        "light": "Claro",
+        "dark": "Oscuro",
+        "highContrast": "Alto Contraste",
+        "selectTheme": "Seleccionar Tema"
+    },
+    "language": {
+        "selectLanguage": "Seleccionar Idioma",
+        "english": "Inglés",
+        "spanish": "Español",
+        "french": "Francés",
+        "german": "Alemán"
+    },
+    "settings": {
+        "sound": "Sonido",
+        "soundOn": "Activado",
+        "soundOff": "Desactivado",
+        "soundMute": "Silenciar sonido",
+        "soundUnmute": "Activar sonido"
+    },
+    "help": {
+        "title": "Ayuda",
+        "description": "Reglas e instrucciones del juego",
+        "whatYouNeed": "Lo que necesitas",
+        "toppleTower": "Torre TOPPLE, Base y Soporte",
+        "topplePieces": "Piezas TOPPLE (12 piezas por color)",
+        "objective": "Objetivo",
+        "objectiveDescription": "Obtén la mayor cantidad de puntos completando o añadiendo a pilas o filas de piezas de juego, teniendo cuidado de no derribar ninguna de las otras piezas.",
+        "numberOfPlayers": "Número de Jugadores",
+        "numberOfPlayersDescription": "2 a 4. Se recomienda para mayores de 6 años.",
+        "preparation": "Preparación",
+        "preparation1": "Coloca el tablero TOPPLE en una superficie plana colocando el soporte en la base y equilibrando la torre TOPPLE encima del soporte.",
+        "preparation2": "Añade jugadores en el orden en que están sentados en círculo, asígnales colores y dale a cada jugador todas las piezas de juego (12 piezas) de ese color. En caso de 2 jugadores, cada jugador puede elegir 2 colores.",
+        "preparation3": "Determina el número de puntos de victoria por los que quieres jugar.",
+        "preparation4": "Presiona Iniciar Juego para comenzar.",
+        "initialDiceRoll": "Primera Tirada de Dados",
+        "initialDiceRollDescription": "Presiona Tirar Dados para lanzar los dados y determinar el jugador inicial. En caso de empate, tiramos de nuevo. El mayor resultado va primero. Luego el juego continúa en sentido horario.",
+        "duringGame": "Durante el Juego",
+        "duringGameDescription": "Para cada turno, tira los dados presionando el botón Tirar Dados o presionando la tecla Espacio o Enter. Luego coloca una pieza en el tablero haciendo clic en una ubicación de colocación válida. Si algún jugador causa un derribo, márcalo haciendo clic en el botón Derribo Ocurrido. El último jugador que haya colocado una pieza perderá 10 puntos, y su jugador anterior ganará 3 puntos.",
+        "scoring": "Puntuación",
+        "scoring1Title": "1. Finalización de Fila",
+        "scoring1Description": "Si colocas una pieza que completa una fila de cinco piezas en cualquier dirección (horizontal, vertical o diagonal), obtienes 3 puntos por completar la fila más 1 punto por cada pieza de juego de tu color que esté en la parte superior de cada otra pila en esa fila, y no todas las demás filas.",
+        "scoring2Title": "2. Añadir a Fila Completada",
+        "scoring2Description": "Si añades una pieza a una fila completada de cinco, obtienes 1 punto por cada pieza de tu color que esté en la parte superior de cada pila en esa fila, y no todas las demás filas.",
+        "scoring3Title": "3. Pila Alta",
+        "scoring3Description": "Si añades una pieza a una pila que ya tiene tres o más piezas de altura, obtienes 1 punto por cada pieza de tu color en esa pila, y no en ninguna otra pila.",
+        "scoring4Title": "4. Puntuación Múltiple",
+        "scoring4Description": "Puedes obtener múltiples puntos si colocas una pieza que completa o añade a más de una fila, o que se apila más de tres de altura y completa o añade a una fila. La pieza que juegas que es común a diferentes filas o a una pila y una fila, se cuenta para cada fila y/o pila.",
+        "remember": "Recuerda",
+        "remember1": "Los jugadores no pueden tocar el tablero TOPPLE ni ninguna de las piezas ya colocadas en el tablero.",
+        "remember2": "Si accidentalmente golpeas el tablero o la mesa y causas un derribo, ya sea tu turno o no, pierdes 10 puntos.",
+        "remember3": "¡Busca múltiples posibilidades de puntuación!",
+        "winning": "Ganar el Juego",
+        "winningDescription": "Una ronda termina cuando ha ocurrido un derribo o cuando todas las piezas han sido jugadas. Si no ha ocurrido un derribo durante una ronda, las piezas se retiran del tablero y la puntuación y el juego continúan. Incluso si un jugador alcanza el número requerido de puntos durante una ronda, el juego no termina hasta que todas las piezas hayan sido jugadas o haya ocurrido un derribo. Si más de un jugador alcanza el número requerido de puntos en ese momento, el jugador con la mayor cantidad de puntos totales gana."
+    }
+}

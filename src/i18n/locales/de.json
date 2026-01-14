@@ -1,0 +1,289 @@
+{
+    "common": {
+        "loading": "Lädt...",
+        "close": "Schließen",
+        "cancel": "Abbrechen",
+        "confirm": "Bestätigen",
+        "undo": "Rückgängig",
+        "redo": "Wiederholen",
+        "reset": "Zurücksetzen",
+        "menu": "Menü",
+        "settings": "Einstellungen",
+        "start": "Starten",
+        "next": "Weiter",
+        "previous": "Zurück",
+        "skip": "Überspringen",
+        "finish": "Beenden",
+        "or": "oder"
+    },
+    "welcome": {
+        "title": "Topple Scorer",
+        "subtitle": "Punkte verfolgen und dein Topple-Brettspiel verwalten",
+        "startButton": "Beginnen"
+    },
+    "game": {
+        "title": "Topple Punktezähler",
+        "round": "Runde {{number}}",
+        "gameOver": "Spiel Beendet!",
+        "roundEnded": "Runde Beendet",
+        "waitingForTurn": "Warten auf deinen Zug",
+        "currentPlayer": "Aktueller Spieler",
+        "noBoardAvailable": "Kein Spielfeld verfügbar"
+    },
+    "setup": {
+        "title": "Spiel-Einstellungen",
+        "description": "Konfiguriere Spieler, Farben und Siegpunkte, um das Spiel zu starten",
+        "playerCount": "Anzahl der Spieler",
+        "victoryPoints": "Siegpunkte",
+        "victoryPointsDescription": "Gib die Anzahl der Punkte ein, die zum Gewinnen benötigt werden",
+        "players": "Spieler",
+        "player": "Spieler {{number}}",
+        "playerDefault": "Spieler {{number}}",
+        "name": "Name",
+        "color": "Farbe",
+        "color2": "Zweite Farbe",
+        "selectColor": "Farbe auswählen",
+        "selectSecondColor": "Zweite Farbe auswählen",
+        "noColorSelected": "Keine Farbe ausgewählt",
+        "startGame": "Spiel Starten",
+        "moveUp": "Spieler {{number}} nach oben verschieben",
+        "moveDown": "Spieler {{number}} nach unten verschieben",
+        "showTutorial": "Interaktives Tutorial anzeigen",
+        "errors": "Einstellungsfehler",
+        "twoPlayers": "2 Spieler",
+        "threePlayers": "3 Spieler",
+        "fourPlayers": "4 Spieler",
+        "none": "Keine",
+        "pink": "Rosa",
+        "yellow": "Gelb",
+        "orange": "Orange",
+        "purple": "Lila"
+    },
+    "initialRoll": {
+        "title": "Startspieler Bestimmen",
+        "description": "Alle Spieler würfeln. Der höchste Wurf beginnt. Bei Gleichstand würfeln diese Spieler erneut.",
+        "waitingToRoll": "Warten auf Wurf...",
+        "rolled": "{{playerName}} hat {{roll}} gewürfelt",
+        "rolledLabel": "{{roll}} gewürfelt",
+        "reorderList": "Spielerreihenfolge",
+        "moveUp": "Ausgewählten Spieler nach oben verschieben",
+        "moveDown": "Ausgewählten Spieler nach unten verschieben",
+        "rollForAll": "Für Alle Spieler Würfeln",
+        "determineWinner": "Startspieler Bestimmen",
+        "dragToReorder": "Ziehen Sie Spieler, um die Reihenfolge vor dem Würfeln zu ändern"
+    },
+    "dice": {
+        "rollDice": "Würfeln",
+        "cannotRoll": "Kann nicht würfeln - warten auf deinen Zug",
+        "clickToRoll": "Klicken zum Würfeln",
+        "clickToRollShortcut": "Klicken zum Würfeln (oder Leertaste/Enter drücken)",
+        "rolled": "hat eine {{roll}} gewürfelt",
+        "title": "Würfeln",
+        "playerTurn": "Zug von {{playerName}}",
+        "waitingForPlayer": "Warten auf Spieler",
+        "noActivePlayer": "Kein aktiver Spieler",
+        "placeCenterOnly": "Nur in der Mitte platzieren",
+        "placeOnLevel": "Auf Ebene {{level}} platzieren",
+        "placeAnywhere": "Überall platzieren",
+        "turnActions": "Zugaktionen",
+        "selectColor": "Farbe Auswählen",
+        "piecesRemaining": "Steine"
+    },
+    "board": {
+        "title": "Spielfeld",
+        "description": "5x5 Spielfeld-Raster. Verwende Pfeiltasten zum Navigieren zwischen Zellen, Enter oder Leertaste zum Platzieren einer Figur",
+        "cell": "Zelle in Zeile {{row}}, Spalte {{col}}, Ebene {{level}}, {{pieces}} Figuren",
+        "validPlacement": ". Gültige Platzierungsstelle. Drücke Enter oder Leertaste, um eine Figur zu platzieren."
+    },
+    "scoring": {
+        "title": "Spielerpunkte",
+        "scores": "Punkte",
+        "currentScores": "Aktuelle Punkte",
+        "points": "{{points}} Punkte",
+        "pointsLabel": "Punkte",
+        "piecesRemaining": "{{pieces}} Figuren verbleibend",
+        "currentPlayer": ", aktueller Spieler",
+        "current": "Aktuell",
+        "winner": ", Gewinner",
+        "winnerBadge": "Gewinner!",
+        "gained": "{{points}} Punkte erhalten",
+        "lost": "{{points}} Punkte verloren",
+        "victoryPoints": "Siegpunkte: {{points}}"
+    },
+    "topple": {
+        "title": "Umsturz Aufgetreten",
+        "description": "Klicken, wenn beim Platzieren einer Figur ein Umsturz aufgetreten ist",
+        "button": "Umsturz Aufgetreten",
+        "buttonWithPlayer": "Umsturz aufgetreten? ({{playerName}})",
+        "ariaLabel": "Umsturz aufgetreten markieren. Der letzte Spieler, der eine Figur platziert hat, verliert 10 Punkte, und der vorherige Spieler erhält 3 Punkte",
+        "message": "Der letzte Spieler, der eine Figur platziert hat, verliert 10 Punkte, und der vorherige Spieler erhält 3 Punkte",
+        "cannotMarkToppled": "Kann Umsturz nicht markieren - nicht dein Zug",
+        "penaltyPlayer": "Strafe an",
+        "noPlayer": "Kein Spieler",
+        "selectPlayer": "Spieler auswählen, der Topple verursacht hat",
+        "selectPlayerTitle": "Spieler auswählen, der Topple verursacht hat",
+        "selectPlayerDescription": "Wählen Sie, welcher Spieler den Topple verursacht hat. Der ausgewählte Spieler erhält eine -10 Punkte Strafe.",
+        "default": "Standard"
+    },
+    "roundEnd": {
+        "title": "Runden-Zusammenfassung",
+        "toppleOccurred": "Ein Umsturz ist aufgetreten! Das Spielfeld wird für die nächste Runde geleert.",
+        "allPiecesPlayed": "Alle Figuren wurden gespielt. Das Spielfeld wird für die nächste Runde geleert.",
+        "startNewRound": "Neue Runde Starten"
+    },
+    "gameEnd": {
+        "winner": "Gewinner: {{name}}",
+        "finalScore": "Endpunktzahl: {{score}} Punkte",
+        "startNewGame": "Neues Spiel Starten",
+        "gameEndedAfter": "Spiel nach Runde {{round}} beendet",
+        "gameStatistics": "Spielstatistiken",
+        "roundsPlayed": "Gespielte Runden",
+        "totalPlacements": "Gesamte Platzierungen",
+        "totalEvents": "Gesamte Ereignisse"
+    },
+    "log": {
+        "title": "Spielprotokoll",
+        "noEvents": "Noch keine Ereignisse. Spieleereignisse erscheinen hier.",
+        "dice": "Würfel",
+        "placement": "Platzierung",
+        "score": "Punkte",
+        "topple": "Umsturz",
+        "roundStart": "Rundenbeginn",
+        "roundEnd": "Rundenende",
+        "event": "{{type}} Ereignis: {{message}}{{player}}{{points}}",
+        "round": "Runde {{number}}",
+        "by": " von {{playerName}}",
+        "gainedPoints": ", {{points}} Punkte erhalten",
+        "lostPoints": ", {{points}} Punkte verloren"
+    },
+    "analytics": {
+        "title": "Spiel-Analysen",
+        "description": "Statistiken und Einblicke aus deinem Spiel",
+        "diceFrequency": "Würfelwurf-Häufigkeit",
+        "totalRolls": "Gesamt: {{count}} Würfe",
+        "rolled": "{{value}} gewürfelt: {{count}} mal ({{percentage}}%)",
+        "averageScore": "Durchschnittliche Punktzahl pro Runde",
+        "average": "{{average}} Durchschnitt",
+        "total": "({{total}} gesamt)",
+        "gameStats": "Spielstatistiken",
+        "currentRound": "Aktuelle Runde:",
+        "totalPlacements": "Gesamte Platzierungen:"
+    },
+    "menu": {
+        "title": "Spielmenü",
+        "description": "Verwalte deine Spielsitzung",
+        "currentGame": "Aktuelles Spiel",
+        "status": "Runde: {{round}} | Status: {{status}}",
+        "players": "Spieler: {{count}} | Siegpunkte: {{points}}",
+        "keyboardShortcuts": "Tastenkürzel",
+        "shortcutMenu": "Cmd/Ctrl+/ - Menü öffnen",
+        "shortcutSound": "Sound umschalten",
+        "shortcutRoll": "Leertaste oder Enter - Würfeln",
+        "shortcutUndo": "U - Rückgängig",
+        "shortcutReset": "R - Spiel zurücksetzen",
+        "shortcutClose": "Esc - Dialoge schließen",
+        "undoLastAction": "Letzte Aktion Rückgängig",
+        "cannotUndo": "Kann nicht rückgängig gemacht werden - keine Aktionen zum Rückgängigmachen",
+        "redoLastAction": "Letzte Aktion Wiederholen",
+        "cannotRedo": "Kann nicht wiederholt werden - keine Aktionen zum Wiederholen",
+        "resetGame": "Spiel Zurücksetzen",
+        "resetConfirm": "Bist du sicher, dass du das Spiel zurücksetzen möchtest? Dies löscht den gesamten Fortschritt und kehrt zum Einstellungsbildschirm zurück.",
+        "resetConfirmTitle": "Zurücksetzen Bestätigen",
+        "resetConfirmDescription": "Bist du sicher, dass du das Spiel zurücksetzen möchtest? Diese Aktion kann nicht rückgängig gemacht werden."
+    },
+    "tutorial": {
+        "close": "Tutorial schließen",
+        "step": "Schritt {{current}} von {{total}}",
+        "titlePrefix": "Tutorial: {{title}}",
+        "previous": "Zurück",
+        "next": "Weiter",
+        "finish": "Beenden",
+        "welcome": {
+            "title": "Willkommen beim Topple Punktezähler!",
+            "content": "Dieses Tutorial führt dich durch das Spiel. Du kannst es jederzeit überspringen oder später zurückkommen."
+        },
+        "setup": {
+            "title": "Spiel-Einstellungen",
+            "content": "Beginne mit der Konfiguration deines Spiels: Wähle die Anzahl der Spieler (2-4), setze Siegpunkte und passe Spielernamen und -farben an."
+        },
+        "rolling": {
+            "title": "Würfeln",
+            "content": "Klicke auf das Würfelsymbol oder den \"Würfeln\"-Button (oder drücke Leertaste/Enter), um zu würfeln. Die Zahl bestimmt, wo du Figuren platzieren kannst."
+        },
+        "placing": {
+            "title": "Figuren Platzieren",
+            "content": "Nach dem Würfeln werden gültige Zellen blau hervorgehoben. Klicke auf eine hervorgehobene Zelle, um deine Figur dort zu platzieren."
+        },
+        "scoring": {
+            "title": "Punkte",
+            "content": "Erziele Punkte, indem du Reihen vervollständigst, zu vervollständigten Reihen hinzufügst oder hohe Stapel (3+ Figuren) baust. Die Punkte werden automatisch aktualisiert."
+        },
+        "topples": {
+            "title": "Umstürze",
+            "content": "Wenn Figuren umfallen, klicke auf \"Umsturz Aufgetreten\". Der letzte Spieler, der eine Figur platziert hat, verliert 10 Punkte, und der vorherige Spieler erhält 3 Bonuspunkte."
+        },
+        "controls": {
+            "title": "Spielsteuerung",
+            "content": "Verwende den Menü-Button für Rückgängig, Zurücksetzen und Einstellungen. Tastenkürzel: Leertaste/Enter (würfeln), U (rückgängig), R (zurücksetzen), Esc (Dialoge schließen)."
+        },
+        "analytics": {
+            "title": "Analysen",
+            "content": "Schaue dir das Analyse-Dashboard an, um Würfelwurf-Häufigkeiten, durchschnittliche Punkte und Spielstatistiken zu sehen."
+        }
+    },
+    "theme": {
+        "light": "Hell",
+        "dark": "Dunkel",
+        "highContrast": "Hoher Kontrast",
+        "selectTheme": "Thema Auswählen"
+    },
+    "language": {
+        "selectLanguage": "Sprache Auswählen",
+        "english": "Englisch",
+        "spanish": "Spanisch",
+        "french": "Französisch",
+        "german": "Deutsch"
+    },
+    "settings": {
+        "sound": "Ton",
+        "soundOn": "An",
+        "soundOff": "Aus",
+        "soundMute": "Ton stummschalten",
+        "soundUnmute": "Ton aktivieren"
+    },
+    "help": {
+        "title": "Hilfe",
+        "description": "Spielregeln und Anleitungen",
+        "whatYouNeed": "Was Sie brauchen",
+        "toppleTower": "TOPPLE Turm, Basis und Ständer",
+        "topplePieces": "TOPPLE Spielsteine (12 Steine pro Farbe)",
+        "objective": "Ziel",
+        "objectiveDescription": "Erzielen Sie die meisten Punkte, indem Sie Stapel oder Reihen von Spielsteinen vervollständigen oder ergänzen, während Sie darauf achten, keine anderen Steine umzuwerfen.",
+        "numberOfPlayers": "Anzahl der Spieler",
+        "numberOfPlayersDescription": "2 bis 4. Ab 6 Jahren empfohlen.",
+        "preparation": "Vorbereitung",
+        "preparation1": "Stellen Sie das TOPPLE-Brett auf eine flache Oberfläche, indem Sie den Ständer in die Basis setzen und den TOPPLE-Turm auf den Ständer balancieren.",
+        "preparation2": "Fügen Sie Spieler in der Reihenfolge hinzu, in der sie im Kreis sitzen, weisen Sie ihnen Farben zu und geben Sie jedem Spieler alle Spielsteine (12 Steine) dieser Farbe. Bei 2 Spielern kann jeder Spieler 2 Farben wählen.",
+        "preparation3": "Bestimmen Sie die Anzahl der Siegpunkte, für die Sie spielen möchten.",
+        "preparation4": "Drücken Sie Spiel starten, um zu beginnen.",
+        "initialDiceRoll": "Erster Würfelwurf",
+        "initialDiceRollDescription": "Drücken Sie Würfeln, um zu würfeln und den Startspieler zu bestimmen. Bei einem Unentschieden würfeln wir erneut. Der höchste Wurf beginnt. Dann geht das Spiel im Uhrzeigersinn weiter.",
+        "duringGame": "Während des Spiels",
+        "duringGameDescription": "Würfeln Sie für jeden Zug, indem Sie entweder die Würfeln-Schaltfläche drücken oder die Leertaste oder Eingabetaste drücken. Platzieren Sie dann einen Stein auf dem Brett, indem Sie auf eine gültige Platzierungsposition klicken. Wenn ein Spieler ein Umkippen verursacht, markieren Sie dies, indem Sie auf die Schaltfläche Umkippen aufgetreten klicken. Der letzte Spieler, der einen Stein platziert hat, verliert 10 Punkte, und sein vorheriger Spieler erhält 3 Punkte.",
+        "scoring": "Punktevergabe",
+        "scoring1Title": "1. Reihenabschluss",
+        "scoring1Description": "Wenn Sie einen Stein platzieren, der eine Reihe von fünf Steinen in beliebiger Richtung (horizontal, vertikal oder diagonal) vervollständigt, erhalten Sie 3 Punkte für den Abschluss der Reihe plus 1 Punkt für jeden Spielstein Ihrer Farbe, der jeden anderen Stapel in dieser Reihe überragt, und nicht alle anderen Reihen.",
+        "scoring2Title": "2. Hinzufügen zu abgeschlossener Reihe",
+        "scoring2Description": "Wenn Sie einen Stein zu einer abgeschlossenen Reihe von fünf hinzufügen, erhalten Sie 1 Punkt für jeden Stein Ihrer Farbe, der jeden Stapel in dieser Reihe überragt, und nicht alle anderen Reihen.",
+        "scoring3Title": "3. Hoher Stapel",
+        "scoring3Description": "Wenn Sie einen Stein zu einem Stapel hinzufügen, der bereits drei oder mehr Steine hoch ist, erhalten Sie 1 Punkt für jeden Stein Ihrer Farbe in diesem Stapel, und nicht in einem anderen Stapel.",
+        "scoring4Title": "4. Mehrfache Punktevergabe",
+        "scoring4Description": "Sie können mehrere Punkte erzielen, wenn Sie einen Stein platzieren, der mehr als eine Reihe vervollständigt oder ergänzt, oder der mehr als drei hoch stapelt und eine Reihe vervollständigt oder ergänzt. Der Stein, den Sie spielen und der mehreren Reihen oder einem Stapel und einer Reihe gemeinsam ist, wird für jede Reihe und/oder jeden Stapel gezählt.",
+        "remember": "Denken Sie daran",
+        "remember1": "Spieler dürfen das TOPPLE-Brett oder bereits platzierte Steine nicht berühren.",
+        "remember2": "Wenn Sie versehentlich das Brett oder den Tisch anstoßen und ein Umkippen verursachen, verlieren Sie 10 Punkte, unabhängig davon, ob es Ihr Zug ist oder nicht.",
+        "remember3": "Suchen Sie nach mehreren Möglichkeiten zur Punktevergabe!",
+        "winning": "Das Spiel gewinnen",
+        "winningDescription": "Eine Runde endet, wenn ein Umkippen aufgetreten ist oder alle Steine gespielt wurden. Wenn während einer Runde kein Umkippen aufgetreten ist, werden die Steine vom Brett entfernt und die Punktevergabe und das Spiel gehen weiter. Selbst wenn ein Spieler während einer Runde die erforderliche Anzahl von Punkten erreicht, ist das Spiel nicht vorbei, bis alle Steine gespielt wurden oder ein Umkippen aufgetreten ist. Wenn mehr als ein Spieler zu diesem Zeitpunkt die erforderliche Anzahl von Punkten erreicht, gewinnt der Spieler mit den meisten Gesamtpunkten."
+    }
+}

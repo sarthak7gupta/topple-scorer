@@ -1,0 +1,289 @@
+{
+    "common": {
+        "loading": "Loading...",
+        "close": "Close",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "undo": "Undo",
+        "redo": "Redo",
+        "reset": "Reset",
+        "menu": "Menu",
+        "settings": "Settings",
+        "start": "Start",
+        "next": "Next",
+        "previous": "Previous",
+        "skip": "Skip",
+        "finish": "Finish",
+        "or": "or"
+    },
+    "welcome": {
+        "title": "Topple Scorer",
+        "subtitle": "Track scores and manage your Topple board game",
+        "startButton": "Begin"
+    },
+    "game": {
+        "title": "Topple Scorer",
+        "round": "Round {{number}}",
+        "gameOver": "Game Over!",
+        "roundEnded": "Round Ended",
+        "waitingForTurn": "Waiting for your turn",
+        "currentPlayer": "Current Player",
+        "noBoardAvailable": "No board available"
+    },
+    "setup": {
+        "title": "Game Setup",
+        "description": "Configure players, colors, and victory points to start the game",
+        "playerCount": "Number of Players",
+        "victoryPoints": "Victory Points",
+        "victoryPointsDescription": "Enter the number of points required to win the game",
+        "players": "Players",
+        "player": "Player {{number}}",
+        "playerDefault": "Player {{number}}",
+        "name": "Name",
+        "color": "Color",
+        "color2": "Second Color",
+        "selectColor": "Select color",
+        "selectSecondColor": "Select second color",
+        "noColorSelected": "No color selected",
+        "startGame": "Start Game",
+        "moveUp": "Move player {{number}} up in order",
+        "moveDown": "Move player {{number}} down in order",
+        "showTutorial": "Show interactive tutorial",
+        "errors": "Setup errors",
+        "twoPlayers": "2 Players",
+        "threePlayers": "3 Players",
+        "fourPlayers": "4 Players",
+        "none": "None",
+        "pink": "Pink",
+        "yellow": "Yellow",
+        "orange": "Orange",
+        "purple": "Purple"
+    },
+    "initialRoll": {
+        "title": "Determine Starting Player",
+        "description": "All players roll dice. Highest roll goes first. In case of a tie, those players roll again.",
+        "waitingToRoll": "Waiting to roll...",
+        "rolled": "{{playerName}} rolled {{roll}}",
+        "rolledLabel": "Rolled {{roll}}",
+        "reorderList": "Player Order",
+        "moveUp": "Move selected player up",
+        "moveDown": "Move selected player down",
+        "rollForAll": "Roll Dice for All Players",
+        "determineWinner": "Determine Starting Player",
+        "dragToReorder": "Drag players to change order before rolling dice"
+    },
+    "dice": {
+        "rollDice": "Roll Dice",
+        "cannotRoll": "Cannot roll dice - waiting for your turn",
+        "clickToRoll": "Click to roll dice",
+        "clickToRollShortcut": "Click to roll dice (or press Space/Enter)",
+        "rolled": "rolled a {{roll}}",
+        "title": "Dice Roll",
+        "playerTurn": "{{playerName}}'s turn",
+        "waitingForPlayer": "Waiting for player",
+        "noActivePlayer": "No active player",
+        "placeCenterOnly": "Place on center only",
+        "placeOnLevel": "Place on level {{level}}",
+        "placeAnywhere": "Place anywhere",
+        "turnActions": "Turn Actions",
+        "selectColor": "Select Color",
+        "piecesRemaining": "pieces"
+    },
+    "board": {
+        "title": "Game board",
+        "description": "5x5 game board grid. Use arrow keys to navigate cells, Enter or Space to place piece",
+        "cell": "Cell at row {{row}}, column {{col}}, level {{level}}, {{pieces}} pieces",
+        "validPlacement": ". Valid placement location. Press Enter or Space to place piece."
+    },
+    "scoring": {
+        "title": "Player scores",
+        "scores": "Scores",
+        "currentScores": "Current Scores",
+        "points": "{{points}} points",
+        "pointsLabel": "points",
+        "piecesRemaining": "{{pieces}} pieces remaining",
+        "currentPlayer": ", current player",
+        "current": "Current",
+        "winner": ", winner",
+        "winnerBadge": "Winner!",
+        "gained": "Gained {{points}} points",
+        "lost": "Lost {{points}} points",
+        "victoryPoints": "Victory Points: {{points}}"
+    },
+    "topple": {
+        "title": "Topple Occurred",
+        "description": "Click if a topple has occurred during piece placement",
+        "button": "Topple Occurred",
+        "buttonWithPlayer": "Topple occurred? ({{playerName}})",
+        "ariaLabel": "Mark topple occurred. The last player to have placed a piece will lose 10 points, and their previous player will gain 3 points",
+        "message": "The last player to have placed a piece will lose 10 points, and their previous player will gain 3 points",
+        "cannotMarkToppled": "Cannot mark topple - not your turn",
+        "penaltyPlayer": "Penalty to",
+        "noPlayer": "No player",
+        "selectPlayer": "Select player who caused topple",
+        "selectPlayerTitle": "Select Player Who Caused Topple",
+        "selectPlayerDescription": "Choose which player caused the topple. The selected player will receive a -10 point penalty.",
+        "default": "Default"
+    },
+    "roundEnd": {
+        "title": "Round Summary",
+        "toppleOccurred": "A topple occurred! The board will be cleared for the next round.",
+        "allPiecesPlayed": "All pieces have been played. The board will be cleared for the next round.",
+        "startNewRound": "Start New Round"
+    },
+    "gameEnd": {
+        "winner": "Winner: {{name}}",
+        "finalScore": "Final Score: {{score}} points",
+        "startNewGame": "Start New Game",
+        "gameEndedAfter": "Game ended after round {{round}}",
+        "gameStatistics": "Game Statistics",
+        "roundsPlayed": "Rounds Played",
+        "totalPlacements": "Total Placements",
+        "totalEvents": "Total Events"
+    },
+    "log": {
+        "title": "Game Log",
+        "noEvents": "No events yet. Game events will appear here.",
+        "dice": "Dice",
+        "placement": "Placement",
+        "score": "Score",
+        "topple": "Topple",
+        "roundStart": "Round Start",
+        "roundEnd": "Round End",
+        "event": "{{type}} event: {{message}}{{player}}{{points}}",
+        "round": "Round {{number}}",
+        "by": " by {{playerName}}",
+        "gainedPoints": ", gained {{points}} points",
+        "lostPoints": ", lost {{points}} points"
+    },
+    "analytics": {
+        "title": "Game Analytics",
+        "description": "Statistics and insights from your game",
+        "diceFrequency": "Dice Roll Frequency",
+        "totalRolls": "Total: {{count}} rolls",
+        "rolled": "Rolled {{value}}: {{count}} times ({{percentage}}%)",
+        "averageScore": "Average Score per Round",
+        "average": "{{average}} avg",
+        "total": "({{total}} total)",
+        "gameStats": "Game Statistics",
+        "currentRound": "Current Round:",
+        "totalPlacements": "Total Placements:"
+    },
+    "menu": {
+        "title": "Game Menu",
+        "description": "Manage your game session",
+        "currentGame": "Current Game",
+        "status": "Round: {{round}} | Status: {{status}}",
+        "players": "Players: {{count}} | Victory Points: {{points}}",
+        "keyboardShortcuts": "Keyboard Shortcuts",
+        "shortcutMenu": "Cmd/Ctrl+/ - Open menu",
+        "shortcutSound": "Toggle sound",
+        "shortcutRoll": "Space or Enter - Roll dice",
+        "shortcutUndo": "U - Undo",
+        "shortcutReset": "R - Reset game",
+        "shortcutClose": "Esc - Close dialogs",
+        "undoLastAction": "Undo Last Action",
+        "cannotUndo": "Cannot undo - no actions to undo",
+        "redoLastAction": "Redo Last Action",
+        "cannotRedo": "Cannot redo - no actions to redo",
+        "resetGame": "Reset Game",
+        "resetConfirm": "Are you sure you want to reset the game? This will clear all progress and return to the setup screen.",
+        "resetConfirmTitle": "Confirm Reset",
+        "resetConfirmDescription": "Are you sure you want to reset the game? This action cannot be undone."
+    },
+    "tutorial": {
+        "close": "Close tutorial",
+        "step": "Step {{current}} of {{total}}",
+        "titlePrefix": "Tutorial: {{title}}",
+        "previous": "Previous",
+        "next": "Next",
+        "finish": "Finish",
+        "welcome": {
+            "title": "Welcome to Topple Scorer!",
+            "content": "This tutorial will guide you through the game. You can skip it anytime or come back later."
+        },
+        "setup": {
+            "title": "Game Setup",
+            "content": "Start by configuring your game: select number of players (2-4), set victory points, and customize player names and colors."
+        },
+        "rolling": {
+            "title": "Rolling Dice",
+            "content": "Click the dice icon or \"Roll Dice\" button (or press Space/Enter) to roll. The number determines where you can place pieces."
+        },
+        "placing": {
+            "title": "Placing Pieces",
+            "content": "After rolling, valid cells are highlighted in blue. Click a highlighted cell to place your piece there."
+        },
+        "scoring": {
+            "title": "Scoring",
+            "content": "Score points by completing rows, adding to completed rows, or building tall stacks (3+ pieces). Scores update automatically."
+        },
+        "topples": {
+            "title": "Topples",
+            "content": "If pieces fall, click \"Topple Occurred\". The last player to have placed a piece loses 10 points, and their previous player gains 3 bonus points."
+        },
+        "controls": {
+            "title": "Game Controls",
+            "content": "Use the Menu button for undo, reset, and settings. Keyboard shortcuts: Space/Enter (roll), U (undo), R (reset), Esc (close dialogs)."
+        },
+        "analytics": {
+            "title": "Analytics",
+            "content": "Check the Analytics Dashboard to see dice roll frequencies, average scores, and game statistics."
+        }
+    },
+    "theme": {
+        "light": "Light",
+        "dark": "Dark",
+        "highContrast": "High Contrast",
+        "selectTheme": "Select Theme"
+    },
+    "language": {
+        "selectLanguage": "Select Language",
+        "english": "English",
+        "spanish": "Spanish",
+        "french": "French",
+        "german": "German"
+    },
+    "settings": {
+        "sound": "Sound",
+        "soundOn": "On",
+        "soundOff": "Off",
+        "soundMute": "Mute sound",
+        "soundUnmute": "Unmute sound"
+    },
+    "help": {
+        "title": "Help",
+        "description": "Game rules and instructions",
+        "whatYouNeed": "What You Need",
+        "toppleTower": "TOPPLE Tower, Base and Stand",
+        "topplePieces": "TOPPLE Pieces (12 pieces per color)",
+        "objective": "Objective",
+        "objectiveDescription": "Score the most points by completing or adding to stacks or rows of playing pieces, while being careful not to topple any of the other pieces.",
+        "numberOfPlayers": "Number of Players",
+        "numberOfPlayersDescription": "2 to 4. Ages 6+ recommended.",
+        "preparation": "Preparation",
+        "preparation1": "Set up the TOPPLE Board on a flat surface by placing the stand into the base and balancing the TOPPLE tower on top of the stand.",
+        "preparation2": "Add players in the order they're sitting in a circle, assign them colors and give each player all the playing pieces (12 pieces) of that color. In case of 2 players, each player can choose 2 colors.",
+        "preparation3": "Determine the number of victory points you want to play for.",
+        "preparation4": "Press Start Game to begin.",
+        "initialDiceRoll": "Initial Dice Roll",
+        "initialDiceRollDescription": "Press Roll Dice to roll the dice to determine the starting player. In case of a tie, we roll again. Highest roll goes first. Then play continues clockwise.",
+        "duringGame": "During the Game",
+        "duringGameDescription": "For each turn, roll dice by either pressing the Roll Dice button or by pressing the Space or Enter key. Then place a piece on the board by clicking on a valid placement location. If any player causes a topple, mark it by clicking the Topple Occurred button. The last player to have placed a piece will lose 10 points, and their previous player will gain 3 points.",
+        "scoring": "Scoring",
+        "scoring1Title": "1. Row Completion",
+        "scoring1Description": "If you place a piece that completes a row of five pieces in any direction (horizontally, vertically or diagonally), you score 3 points for completing the row plus 1 point for each playing piece of your color that tops each other stack in that row, and not all other rows.",
+        "scoring2Title": "2. Adding to Completed Row",
+        "scoring2Description": "If you add a piece to a completed row of five, you score 1 point for each piece of your color that tops each stack in that row, and not all other rows.",
+        "scoring3Title": "3. Tall Stack",
+        "scoring3Description": "If you add a piece to a stack that already has three or more pieces high, you score 1 point for each piece of your color in that stack, and not any other stack.",
+        "scoring4Title": "4. Multiple Scoring",
+        "scoring4Description": "You can score multiple points if you place a piece that completes or adds to more than one row, or which stacks more than three high and completes or adds to a row. The piece that you play that is common to different rows or to a stack and a row, is counted for each row and/or stack.",
+        "remember": "Remember",
+        "remember1": "Players cannot touch the TOPPLE board or any of the pieces already placed on the board.",
+        "remember2": "If you accidentally knock the board, or table, and cause a topple, whether or not it's your turn, you lose 10 points.",
+        "remember3": "Look for multiple scoring possibilities!",
+        "winning": "Winning the Game",
+        "winningDescription": "A round ends when a topple has occurred or when all the pieces have been played. If a topple has not occurred during a round, the pieces are removed from the board and the scoring and play continue. Even if a player reaches the required number of points during a round, the game is not over until all the pieces have been played or a topple has occurred. If more than one player reaches the required number of points at that time, the player with the highest total points wins."
+    }
+}

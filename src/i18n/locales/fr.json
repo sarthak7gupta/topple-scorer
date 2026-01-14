@@ -1,0 +1,289 @@
+{
+    "common": {
+        "loading": "Chargement...",
+        "close": "Fermer",
+        "cancel": "Annuler",
+        "confirm": "Confirmer",
+        "undo": "Annuler",
+        "redo": "Refaire",
+        "reset": "Réinitialiser",
+        "menu": "Menu",
+        "settings": "Paramètres",
+        "start": "Démarrer",
+        "next": "Suivant",
+        "previous": "Précédent",
+        "skip": "Passer",
+        "finish": "Terminer",
+        "or": "ou"
+    },
+    "welcome": {
+        "title": "Marqueur Topple",
+        "subtitle": "Suivez les scores et gérez votre jeu de société Topple",
+        "startButton": "Commencer"
+    },
+    "game": {
+        "title": "Marqueur Topple",
+        "round": "Manche {{number}}",
+        "gameOver": "Partie Terminée !",
+        "roundEnded": "Manche Terminée",
+        "waitingForTurn": "En attente de votre tour",
+        "currentPlayer": "Joueur Actuel",
+        "noBoardAvailable": "Aucun plateau disponible"
+    },
+    "setup": {
+        "title": "Configuration de la Partie",
+        "description": "Configurez les joueurs, les couleurs et les points de victoire pour commencer la partie",
+        "playerCount": "Nombre de Joueurs",
+        "victoryPoints": "Points de Victoire",
+        "victoryPointsDescription": "Entrez le nombre de points requis pour gagner la partie",
+        "players": "Joueurs",
+        "player": "Joueur {{number}}",
+        "playerDefault": "Joueur {{number}}",
+        "name": "Nom",
+        "color": "Couleur",
+        "color2": "Deuxième Couleur",
+        "selectColor": "Sélectionner une couleur",
+        "selectSecondColor": "Sélectionner une deuxième couleur",
+        "noColorSelected": "Aucune couleur sélectionnée",
+        "startGame": "Démarrer la Partie",
+        "moveUp": "Déplacer le joueur {{number}} vers le haut",
+        "moveDown": "Déplacer le joueur {{number}} vers le bas",
+        "showTutorial": "Afficher le tutoriel interactif",
+        "errors": "Erreurs de configuration",
+        "twoPlayers": "2 Joueurs",
+        "threePlayers": "3 Joueurs",
+        "fourPlayers": "4 Joueurs",
+        "none": "Aucun",
+        "pink": "Rose",
+        "yellow": "Jaune",
+        "orange": "Orange",
+        "purple": "Violet"
+    },
+    "initialRoll": {
+        "title": "Déterminer le Joueur de Départ",
+        "description": "Tous les joueurs lancent les dés. Le plus grand lancer commence. En cas d'égalité, ces joueurs relancent.",
+        "waitingToRoll": "En attente de lancer...",
+        "rolled": "{{playerName}} a lancé {{roll}}",
+        "rolledLabel": "A lancé {{roll}}",
+        "reorderList": "Ordre des Joueurs",
+        "moveUp": "Déplacer le joueur sélectionné vers le haut",
+        "moveDown": "Déplacer le joueur sélectionné vers le bas",
+        "rollForAll": "Lancer les Dés pour Tous les Joueurs",
+        "determineWinner": "Déterminer le Joueur de Départ",
+        "dragToReorder": "Faites glisser les joueurs pour changer l'ordre avant de lancer les dés"
+    },
+    "dice": {
+        "rollDice": "Lancer le Dé",
+        "cannotRoll": "Impossible de lancer le dé - en attente de votre tour",
+        "clickToRoll": "Cliquez pour lancer le dé",
+        "clickToRollShortcut": "Cliquez pour lancer le dé (ou appuyez sur Espace/Entrée)",
+        "rolled": "a lancé un {{roll}}",
+        "title": "Lancer le Dé",
+        "playerTurn": "Tour de {{playerName}}",
+        "waitingForPlayer": "En attente d'un joueur",
+        "noActivePlayer": "Aucun joueur actif",
+        "placeCenterOnly": "Placer uniquement au centre",
+        "placeOnLevel": "Placer au niveau {{level}}",
+        "placeAnywhere": "Placer n'importe où",
+        "turnActions": "Actions du Tour",
+        "selectColor": "Sélectionner la Couleur",
+        "piecesRemaining": "pièces"
+    },
+    "board": {
+        "title": "Plateau de jeu",
+        "description": "Grille de plateau de jeu 5x5. Utilisez les flèches pour naviguer entre les cellules, Entrée ou Espace pour placer une pièce",
+        "cell": "Cellule à la ligne {{row}}, colonne {{col}}, niveau {{level}}, {{pieces}} pièces",
+        "validPlacement": ". Emplacement de placement valide. Appuyez sur Entrée ou Espace pour placer une pièce."
+    },
+    "scoring": {
+        "title": "Scores des joueurs",
+        "scores": "Scores",
+        "currentScores": "Scores Actuels",
+        "points": "{{points}} points",
+        "pointsLabel": "points",
+        "piecesRemaining": "{{pieces}} pièces restantes",
+        "currentPlayer": ", joueur actuel",
+        "current": "Actuel",
+        "winner": ", gagnant",
+        "winnerBadge": "Gagnant !",
+        "gained": "Gagné {{points}} points",
+        "lost": "Perdu {{points}} points",
+        "victoryPoints": "Points de Victoire : {{points}}"
+    },
+    "topple": {
+        "title": "Effondrement Survenu",
+        "description": "Cliquez si un effondrement s'est produit lors du placement d'une pièce",
+        "button": "Effondrement Survenu",
+        "buttonWithPlayer": "Effondrement survenu ? ({{playerName}})",
+        "ariaLabel": "Marquer l'effondrement survenu. Le dernier joueur à avoir placé une pièce perdra 10 points, et le joueur précédent gagnera 3 points",
+        "message": "Le dernier joueur à avoir placé une pièce perdra 10 points, et le joueur précédent gagnera 3 points",
+        "cannotMarkToppled": "Impossible de marquer l'effondrement - ce n'est pas votre tour",
+        "penaltyPlayer": "Pénalité à",
+        "noPlayer": "Aucun joueur",
+        "selectPlayer": "Sélectionner le joueur qui a causé l'effondrement",
+        "selectPlayerTitle": "Sélectionner le joueur qui a causé l'effondrement",
+        "selectPlayerDescription": "Choisissez quel joueur a causé l'effondrement. Le joueur sélectionné recevra une pénalité de -10 points.",
+        "default": "Par défaut"
+    },
+    "roundEnd": {
+        "title": "Résumé de la Manche",
+        "toppleOccurred": "Un effondrement s'est produit ! Le plateau sera nettoyé pour la manche suivante.",
+        "allPiecesPlayed": "Toutes les pièces ont été jouées. Le plateau sera nettoyé pour la manche suivante.",
+        "startNewRound": "Démarrer une Nouvelle Manche"
+    },
+    "gameEnd": {
+        "winner": "Gagnant : {{name}}",
+        "finalScore": "Score Final : {{score}} points",
+        "startNewGame": "Démarrer une Nouvelle Partie",
+        "gameEndedAfter": "Partie terminée après la manche {{round}}",
+        "gameStatistics": "Statistiques du Jeu",
+        "roundsPlayed": "Rounds Joués",
+        "totalPlacements": "Total des Placements",
+        "totalEvents": "Total des Événements"
+    },
+    "log": {
+        "title": "Journal de la Partie",
+        "noEvents": "Aucun événement pour le moment. Les événements de la partie apparaîtront ici.",
+        "dice": "Dé",
+        "placement": "Placement",
+        "score": "Score",
+        "topple": "Effondrement",
+        "roundStart": "Début de Manche",
+        "roundEnd": "Fin de Manche",
+        "event": "Événement {{type}} : {{message}}{{player}}{{points}}",
+        "round": "Manche {{number}}",
+        "by": " par {{playerName}}",
+        "gainedPoints": ", gagné {{points}} points",
+        "lostPoints": ", perdu {{points}} points"
+    },
+    "analytics": {
+        "title": "Analyses de la Partie",
+        "description": "Statistiques et informations sur votre partie",
+        "diceFrequency": "Fréquence des Lancers de Dés",
+        "totalRolls": "Total : {{count}} lancers",
+        "rolled": "Lancé {{value}} : {{count}} fois ({{percentage}}%)",
+        "averageScore": "Score Moyen par Manche",
+        "average": "{{average}} moy",
+        "total": "({{total}} total)",
+        "gameStats": "Statistiques de la Partie",
+        "currentRound": "Manche Actuelle :",
+        "totalPlacements": "Total de Placements :"
+    },
+    "menu": {
+        "title": "Menu de la Partie",
+        "description": "Gérez votre session de jeu",
+        "currentGame": "Partie Actuelle",
+        "status": "Manche : {{round}} | État : {{status}}",
+        "players": "Joueurs : {{count}} | Points de Victoire : {{points}}",
+        "keyboardShortcuts": "Raccourcis Clavier",
+        "shortcutMenu": "Cmd/Ctrl+/ - Ouvrir le menu",
+        "shortcutSound": "Activer/désactiver le son",
+        "shortcutRoll": "Espace ou Entrée - Lancer le dé",
+        "shortcutUndo": "U - Annuler",
+        "shortcutReset": "R - Réinitialiser la partie",
+        "shortcutClose": "Esc - Fermer les dialogues",
+        "undoLastAction": "Annuler la Dernière Action",
+        "cannotUndo": "Impossible d'annuler - aucune action à annuler",
+        "redoLastAction": "Refaire la Dernière Action",
+        "cannotRedo": "Impossible de refaire - aucune action à refaire",
+        "resetGame": "Réinitialiser la Partie",
+        "resetConfirm": "Êtes-vous sûr de vouloir réinitialiser la partie ? Cela effacera tout le progrès et retournera à l'écran de configuration.",
+        "resetConfirmTitle": "Confirmer la Réinitialisation",
+        "resetConfirmDescription": "Êtes-vous sûr de vouloir réinitialiser la partie ? Cette action ne peut pas être annulée."
+    },
+    "tutorial": {
+        "close": "Fermer le tutoriel",
+        "step": "Étape {{current}} sur {{total}}",
+        "titlePrefix": "Tutoriel : {{title}}",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "finish": "Terminer",
+        "welcome": {
+            "title": "Bienvenue dans Marqueur Topple !",
+            "content": "Ce tutoriel vous guidera à travers le jeu. Vous pouvez le passer à tout moment ou y revenir plus tard."
+        },
+        "setup": {
+            "title": "Configuration de la Partie",
+            "content": "Commencez par configurer votre partie : sélectionnez le nombre de joueurs (2-4), définissez les points de victoire et personnalisez les noms et couleurs des joueurs."
+        },
+        "rolling": {
+            "title": "Lancer les Dés",
+            "content": "Cliquez sur l'icône de dé ou le bouton \"Lancer le Dé\" (ou appuyez sur Espace/Entrée) pour lancer. Le nombre détermine où vous pouvez placer les pièces."
+        },
+        "placing": {
+            "title": "Placer les Pièces",
+            "content": "Après avoir lancé, les cellules valides sont surlignées en bleu. Cliquez sur une cellule surlignée pour y placer votre pièce."
+        },
+        "scoring": {
+            "title": "Marquage",
+            "content": "Marquez des points en complétant des rangées, en ajoutant à des rangées complétées ou en construisant des piles hautes (3+ pièces). Les scores se mettent à jour automatiquement."
+        },
+        "topples": {
+            "title": "Effondrements",
+            "content": "Si les pièces tombent, cliquez sur \"Effondrement Survenu\". Le dernier joueur à avoir placé une pièce perd 10 points, et le joueur précédent gagne 3 points de bonus."
+        },
+        "controls": {
+            "title": "Contrôles du Jeu",
+            "content": "Utilisez le bouton Menu pour annuler, réinitialiser et les paramètres. Raccourcis clavier : Espace/Entrée (lancer), U (annuler), R (réinitialiser), Esc (fermer les dialogues)."
+        },
+        "analytics": {
+            "title": "Analyses",
+            "content": "Consultez le Tableau de Bord des Analyses pour voir les fréquences de lancers de dés, les scores moyens et les statistiques de la partie."
+        }
+    },
+    "theme": {
+        "light": "Clair",
+        "dark": "Sombre",
+        "highContrast": "Contraste Élevé",
+        "selectTheme": "Sélectionner un Thème"
+    },
+    "language": {
+        "selectLanguage": "Sélectionner une Langue",
+        "english": "Anglais",
+        "spanish": "Espagnol",
+        "french": "Français",
+        "german": "Allemand"
+    },
+    "settings": {
+        "sound": "Son",
+        "soundOn": "Activé",
+        "soundOff": "Désactivé",
+        "soundMute": "Couper le son",
+        "soundUnmute": "Activer le son"
+    },
+    "help": {
+        "title": "Aide",
+        "description": "Règles et instructions du jeu",
+        "whatYouNeed": "Ce dont vous avez besoin",
+        "toppleTower": "Tour TOPPLE, Base et Support",
+        "topplePieces": "Pièces TOPPLE (12 pièces par couleur)",
+        "objective": "Objectif",
+        "objectiveDescription": "Marquez le plus de points en complétant ou en ajoutant à des piles ou des rangées de pièces de jeu, tout en veillant à ne pas faire tomber les autres pièces.",
+        "numberOfPlayers": "Nombre de Joueurs",
+        "numberOfPlayersDescription": "2 à 4. Recommandé pour les 6 ans et plus.",
+        "preparation": "Préparation",
+        "preparation1": "Installez le plateau TOPPLE sur une surface plane en plaçant le support dans la base et en équilibrant la tour TOPPLE sur le support.",
+        "preparation2": "Ajoutez les joueurs dans l'ordre où ils sont assis en cercle, assignez-leur des couleurs et donnez à chaque joueur toutes les pièces de jeu (12 pièces) de cette couleur. En cas de 2 joueurs, chaque joueur peut choisir 2 couleurs.",
+        "preparation3": "Déterminez le nombre de points de victoire pour lesquels vous voulez jouer.",
+        "preparation4": "Appuyez sur Démarrer le Jeu pour commencer.",
+        "initialDiceRoll": "Premier Lancer de Dés",
+        "initialDiceRollDescription": "Appuyez sur Lancer les Dés pour lancer les dés et déterminer le joueur de départ. En cas d'égalité, nous relançons. Le plus grand résultat commence. Ensuite, le jeu continue dans le sens des aiguilles d'une montre.",
+        "duringGame": "Pendant le Jeu",
+        "duringGameDescription": "Pour chaque tour, lancez les dés en appuyant sur le bouton Lancer les Dés ou en appuyant sur la touche Espace ou Entrée. Ensuite, placez une pièce sur le plateau en cliquant sur un emplacement de placement valide. Si un joueur provoque un renversement, marquez-le en cliquant sur le bouton Renversement Survenu. Le dernier joueur à avoir placé une pièce perdra 10 points, et son joueur précédent gagnera 3 points.",
+        "scoring": "Marquage des Points",
+        "scoring1Title": "1. Complétion de Rangée",
+        "scoring1Description": "Si vous placez une pièce qui complète une rangée de cinq pièces dans n'importe quelle direction (horizontalement, verticalement ou diagonalement), vous marquez 3 points pour compléter la rangée plus 1 point pour chaque pièce de jeu de votre couleur qui surmonte chaque autre pile dans cette rangée, et non toutes les autres rangées.",
+        "scoring2Title": "2. Ajout à une Rangée Complétée",
+        "scoring2Description": "Si vous ajoutez une pièce à une rangée complétée de cinq, vous marquez 1 point pour chaque pièce de votre couleur qui surmonte chaque pile dans cette rangée, et non toutes les autres rangées.",
+        "scoring3Title": "3. Pile Haute",
+        "scoring3Description": "Si vous ajoutez une pièce à une pile qui a déjà trois pièces ou plus de hauteur, vous marquez 1 point pour chaque pièce de votre couleur dans cette pile, et non dans une autre pile.",
+        "scoring4Title": "4. Marquage Multiple",
+        "scoring4Description": "Vous pouvez marquer plusieurs points si vous placez une pièce qui complète ou ajoute à plus d'une rangée, ou qui s'empile à plus de trois de hauteur et complète ou ajoute à une rangée. La pièce que vous jouez qui est commune à différentes rangées ou à une pile et une rangée, est comptée pour chaque rangée et/ou pile.",
+        "remember": "Rappelez-vous",
+        "remember1": "Les joueurs ne peuvent pas toucher le plateau TOPPLE ou aucune des pièces déjà placées sur le plateau.",
+        "remember2": "Si vous renversez accidentellement le plateau ou la table et provoquez un renversement, que ce soit votre tour ou non, vous perdez 10 points.",
+        "remember3": "Cherchez plusieurs possibilités de marquage !",
+        "winning": "Gagner le Jeu",
+        "winningDescription": "Un tour se termine lorsqu'un renversement s'est produit ou lorsque toutes les pièces ont été jouées. Si un renversement ne s'est pas produit pendant un tour, les pièces sont retirées du plateau et le marquage et le jeu continuent. Même si un joueur atteint le nombre requis de points pendant un tour, le jeu n'est pas terminé jusqu'à ce que toutes les pièces aient été jouées ou qu'un renversement se soit produit. Si plus d'un joueur atteint le nombre requis de points à ce moment-là, le joueur avec le plus grand nombre de points totaux gagne."
+    }
+}
